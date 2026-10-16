@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Golden Tabby Creations | AI Powered Digital Marketing Agency</title>
+<meta name="description" content="Golden Tabby Creations builds AI powered marketing systems for SEO, Google Ads, social media and AI search that generate revenue.">
+<meta property="og:title" content="Golden Tabby Creations | AI Powered Digital Marketing Agency">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Golden Tabby Creations","description":"AI powered digital marketing agency"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050505;--bg2:#111111;--tx:#fff;--mut:#888888;--ln:rgba(212,175,55,.22);--gold:#D4AF37;--lg:#F6D365;--dg:#B8860B;--ok:#27AE60;--nav:rgba(5,5,5,.85);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="light"]{--bg:#faf8f3;--bg2:#f0ece1;--tx:#15130d;--mut:#6b6659;--ln:rgba(184,134,11,.3);--gold:#B8860B;--nav:rgba(250,248,243,.9)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 17px/1.65 Manrope,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.05;letter-spacing:-.025em;margin:0}
+h1{font-size:clamp(2.6rem,7vw,5.6rem);font-weight:500;max-width:15ch}
+h2{font-size:clamp(2rem,4.5vw,3.4rem);font-weight:500;max-width:20ch}
+h3{font-size:1.25rem;font-weight:500;letter-spacing:-.01em}
+p{margin:0;max-width:62ch}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--lg);outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+section{padding:110px 0;border-top:1px solid var(--ln)}
+.lede{color:var(--mut);margin-top:20px}
+#prog{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--dg),var(--lg));z-index:60}
+header{position:fixed;inset:0 0 auto;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.s{background:var(--nav);backdrop-filter:blur(14px);border-color:var(--ln)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:49}
+nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font:700 1.15rem "Space Grotesk";text-decoration:none;color:var(--gold);letter-spacing:-.01em}
+.links{display:flex;gap:30px;align-items:center}
+.links a{text-decoration:none;font-size:.95rem;position:relative;padding:4px 0}
+.links a:not(.btn)::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.links a:hover::after{transform:scaleX(1)}
+.btn{display:inline-block;font:500 .95rem "Space Grotesk";padding:14px 26px;border:1px solid var(--gold);text-decoration:none;cursor:pointer;background:transparent;color:var(--tx);transition:box-shadow .3s,transform .3s,background .3s}
+.btn.p{background:linear-gradient(135deg,var(--lg),var(--gold) 55%,var(--dg));color:#1a1400;border-color:transparent}
+.btn:hover{box-shadow:0 0 28px rgba(212,175,55,.45);transform:translateY(-2px)}
+#theme{background:none;border:1px solid var(--ln);color:var(--tx);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:1rem}
+#menu{display:none;background:none;border:0;color:var(--tx);font-size:1.5rem;cursor:pointer}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;border:0;padding:140px 0 80px;overflow:hidden}
+#net{position:absolute;inset:0;width:100%;height:100%}
+.hero .wrap{position:relative}
+.hero::after{content:"";position:absolute;width:60vmax;height:60vmax;right:-25vmax;top:-10vmax;background:radial-gradient(circle,rgba(212,175,55,.22),transparent 62%);pointer-events:none}
+.hero p{font-size:1.2rem;color:var(--mut);margin:28px 0 40px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:90px;border-top:1px solid var(--ln)}
+.stats div{padding:28px 20px 0 0}
+.stats b{font:500 clamp(2rem,4vw,3rem) "Space Grotesk";display:block;color:var(--lg)}
+.stats span{color:var(--mut);font-size:.9rem}
+.split{display:grid;grid-template-columns:1fr 1.3fr;gap:64px}
+.pillars{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--ln);border:1px solid var(--ln)}
+.pillars div{background:var(--bg);padding:34px 28px;transition:background .3s}
+.pillars div:hover{background:var(--bg2)}
+.pillars p{color:var(--mut);font-size:.95rem;margin-top:10px}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);margin-top:56px;border:1px solid var(--ln)}
+.svc article{padding:36px 30px;border-right:1px solid var(--ln);border-bottom:1px solid var(--ln);margin:0 -1px -1px 0;transition:background .3s,transform .3s}
+.svc article:hover{background:var(--bg2);transform:translateY(-4px)}
+.svc svg{width:30px;height:30px;stroke:var(--gold);fill:none;stroke-width:1.5;margin-bottom:22px}
+.svc p{color:var(--mut);font-size:.95rem;margin:10px 0 18px}
+.svc small{color:var(--tx);display:block;font-size:.88rem;line-height:1.7;opacity:.85}
+.fl{display:flex;gap:8px;flex-wrap:wrap;margin:40px 0 28px}
+.fl button{background:none;border:1px solid var(--ln);color:var(--tx);padding:8px 18px;cursor:pointer;font:500 .9rem Manrope}
+.fl button[aria-pressed=true]{background:var(--gold);color:#1a1400;border-color:var(--gold)}
+.work{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.work article{background:var(--bg2);border:1px solid var(--ln);padding:34px;min-height:280px;display:flex;flex-direction:column;justify-content:space-between;transition:border-color .3s,transform .3s}
+.work article:hover{border-color:var(--gold);transform:translateY(-5px)}
+.work article[hidden]{display:none}
+.work small{color:var(--mut)}
+.work h3{font-size:1.6rem;margin:12px 0}
+.work .r{font:500 2.4rem "Space Grotesk";color:var(--lg)}
+.price{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
+.price article{border:1px solid var(--ln);padding:38px 32px;transition:transform .3s,box-shadow .3s}
+.price article:hover{transform:translateY(-8px);box-shadow:0 20px 60px -20px rgba(212,175,55,.35)}
+.price .f{border-color:var(--gold);background:var(--bg2)}
+.price ul{padding:0;list-style:none;margin:24px 0 30px;color:var(--mut);font-size:.95rem}
+.price li{padding:9px 0;border-top:1px solid var(--ln)}
+.price b{font:500 2.2rem "Space Grotesk";display:block;margin-top:14px}
+table{width:100%;border-collapse:collapse;margin-top:48px}
+th,td{text-align:left;padding:18px 16px;border-bottom:1px solid var(--ln)}
+th{font:500 1rem "Space Grotesk"}
+th:last-child{color:var(--gold)}
+td:nth-child(2){color:var(--mut)}
+td:last-child{color:var(--ok)}
+.tl{display:grid;grid-template-columns:repeat(5,1fr);margin-top:56px;position:relative}
+.tl::before{content:"";position:absolute;top:7px;left:0;right:0;height:1px;background:var(--ln)}
+.tl div{padding-right:18px;position:relative}
+.tl div::before{content:"";display:block;width:15px;height:15px;border-radius:50%;background:var(--gold);box-shadow:0 0 16px var(--gold);margin-bottom:26px}
+.tl p{color:var(--mut);font-size:.92rem;margin-top:8px}
+.audit{background:linear-gradient(160deg,var(--bg2),var(--bg))}
+form{display:grid;gap:22px;margin-top:8px}
+.fld{position:relative}
+.fld input,.fld select{width:100%;background:transparent;border:0;border-bottom:1px solid var(--ln);color:var(--tx);font:inherit;padding:22px 0 8px;border-radius:0}
+.fld select option{background:var(--bg2);color:var(--tx)}
+.fld label{position:absolute;left:0;top:20px;color:var(--mut);transition:all .2s;pointer-events:none}
+.fld input:focus+label,.fld input:not(:placeholder-shown)+label,.fld select+label{top:0;font-size:.78rem;color:var(--gold)}
+.fld input:focus,.fld select:focus{outline:0;border-color:var(--gold)}
+.err{color:#e5736a;font-size:.82rem;min-height:1em;display:block;margin-top:4px}
+.ok{display:none;border:1px solid var(--ok);padding:32px}
+.ok h3{color:var(--ok);margin-bottom:8px}
+.sp{display:none;width:16px;height:16px;border:2px solid #1a1400;border-top-color:transparent;border-radius:50%;animation:r .7s linear infinite;vertical-align:-3px;margin-right:8px}
+@keyframes r{to{transform:rotate(360deg)}}
+details{border-top:1px solid var(--ln);padding:22px 0}
+details:last-of-type{border-bottom:1px solid var(--ln)}
+summary{cursor:pointer;font:500 1.15rem "Space Grotesk";list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::after{content:"+";color:var(--gold);transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--mut);margin-top:14px}
+footer{border-top:1px solid var(--ln);padding:70px 0 40px;background:var(--bg2)}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px}
+.fg a{display:block;text-decoration:none;color:var(--mut);padding:4px 0}
+.fg a:hover{color:var(--gold)}
+.fg h3{font-size:1rem;margin-bottom:12px}
+.copy{margin-top:56px;color:var(--mut);font-size:.85rem}
+#float{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:40;opacity:0;transform:translateY(20px);pointer-events:none;transition:.4s}
+#float.v{opacity:1;transform:none;pointer-events:auto}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+@media (max-width:900px){
+ section{padding:80px 0}
+ .split,.fg{grid-template-columns:1fr;gap:36px}
+ .svc,.price,.work,.pillars{grid-template-columns:1fr}
+ .stats{grid-template-columns:1fr 1fr}
+ .tl{grid-template-columns:1fr;gap:28px}.tl::before{display:none}
+ #menu{display:block}
+ .links{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;background:var(--bg);padding:24px;border-bottom:1px solid var(--ln)}
+ .links.o{display:flex}
+ .cmp{overflow-x:auto}table{min-width:520px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+<header id="hd"><div class="wrap"><nav aria-label="Main">
+<a class="logo" href="#top">Golden Tabby Creations</a>
+<button id="menu" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+<div class="links" id="links">
+<a href="#about">Why AI</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+<button id="theme" aria-label="Toggle light or dark mode">&#9788;</button>
+<a class="btn p" href="#audit">Book Free Strategy Call</a>
+</div></nav></div></header>
+
+<main id="top">
+<section class="hero"><canvas id="net" aria-hidden="true"></canvas><div class="wrap">
+<h1>We build AI powered marketing that generates revenue.</h1>
+<p>Golden Tabby Creations helps ambitious brands win on Google, social media, AI search and paid advertising with intelligent marketing systems.</p>
+<div class="cta"><a class="btn p" href="#audit">Book consultation</a><a class="btn" href="#work">View our work</a></div>
+<div class="stats">
+<div><b data-n="100" data-s="+">0</b><span>Projects delivered</span></div>
+<div><b data-n="50" data-s="+">0</b><span>Clients served</span></div>
+<div><b data-n="300" data-s="%">0</b><span>Average growth</span></div>
+<div><b data-n="12" data-s="+">0</b><span>Industries</span></div>
+</div></div></section>
+
+<section id="about"><div class="wrap split">
+<div class="rv"><h2>Why AI changes everything</h2><p class="lede">Most agencies add AI to a slide. We build it into the work. Models handle research, testing and reporting at a scale no team can match. People handle taste, strategy and trust.</p></div>
+<div class="pillars rv">
+<div><h3>Artificial intelligence</h3><p>Predicts which audiences, keywords and creatives will convert before you spend on them.</p></div>
+<div><h3>Human creativity</h3><p>Senior strategists and designers shape every message so it sounds like your brand.</p></div>
+<div><h3>Data and analytics</h3><p>One live dashboard ties every rupee of spend to leads and revenue.</p></div>
+<div><h3>Automation</h3><p>Follow-ups, reports and lead routing run on their own, around the clock.</p></div>
+<div><h3>Performance marketing</h3><p>Budgets move daily toward the campaigns that earn the best return.</p></div>
+<div><h3>Faster learning</h3><p>Weekly tests replace quarterly guesses, so results compound sooner.</p></div>
+</div></div></section>
+
+<section id="services"><div class="wrap">
+<h2 class="rv">Every channel that grows your business</h2>
+<p class="lede rv">Nineteen services, organised around the outcome you need.</p>
+<div class="svc" id="svc"></div>
+</div></section>
+
+<section id="work"><div class="wrap">
+<h2 class="rv">Results our clients can show their boards</h2>
+<div class="fl" id="fl" role="group" aria-label="Filter projects"></div>
+<div class="work" id="wk"></div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+<h2 class="rv">Plans that scale with your ambition</h2>
+<p class="lede rv">Every plan starts with a free audit. No long lock-in contracts.</p>
+<div class="price rv">
+<article><h3>Starter</h3><b>From ₹60,000/mo</b><ul><li>SEO and content foundation</li><li>One paid channel</li><li>Monthly performance report</li></ul><a class="btn" href="#audit">Get proposal</a></article>
+<article class="f"><h3>Growth</h3><b>From ₹1,50,000/mo</b><ul><li>SEO, AI SEO and paid media</li><li>Social and email automation</li><li>Weekly optimisation calls</li><li>Live analytics dashboard</li></ul><a class="btn p" href="#audit">Get proposal</a></article>
+<article><h3>Enterprise</h3><b>Custom</b><ul><li>Full-funnel AI marketing system</li><li>Dedicated strategy team</li><li>Custom chatbots and automation</li></ul><a class="btn" href="#audit">Talk to us</a></article>
+</div></div></section>
+
+<section><div class="wrap">
+<h2 class="rv">Traditional agency vs Golden Tabby Creations</h2>
+<div class="cmp rv"><table><thead><tr><th></th><th>Traditional agency</th><th>Golden Tabby Creations</th></tr></thead><tbody>
+<tr><td>AI automation</td><td>Rarely used</td><td>Built into every campaign</td></tr>
+<tr><td>Reporting</td><td>Monthly PDF</td><td>Live dashboard</td></tr>
+<tr><td>Performance</td><td>Reviewed quarterly</td><td>Optimised weekly</td></tr>
+<tr><td>Speed</td><td>Weeks to launch</td><td>Days to launch</td></tr>
+<tr><td>Transparency</td><td>Vanity metrics</td><td>Revenue and cost per lead</td></tr>
+<tr><td>Innovation</td><td>Playbook repeats</td><td>New tests every week</td></tr>
+<tr><td>ROI</td><td>Hard to prove</td><td>Tracked to the sale</td></tr>
+</tbody></table></div></div></section>
+
+<section><div class="wrap">
+<h2 class="rv">How we take you from first call to scale</h2>
+<div class="tl rv">
+<div><h3>Discovery</h3><p>We audit your funnel, competitors and data.</p></div>
+<div><h3>Strategy</h3><p>We set targets and pick the channels that will hit them.</p></div>
+<div><h3>Execution</h3><p>We launch campaigns, content and automation.</p></div>
+<div><h3>Optimization</h3><p>We test weekly and cut what underperforms.</p></div>
+<div><h3>Scaling</h3><p>We put more budget behind what works.</p></div>
+</div></div></section>
+
+<section id="audit" class="audit"><div class="wrap split">
+<div class="rv"><h2>Get your free AI marketing audit</h2><p class="lede">Tell us about your business. We'll review your search, ads and social presence and send a clear plan for growth.</p></div>
+<div class="rv">
+<form id="af" novalidate>
+<div class="fld"><input id="n" placeholder=" " autocomplete="name"><label for="n">Name</label><span class="err"></span></div>
+<div class="fld"><input id="c" placeholder=" " autocomplete="organization"><label for="c">Company</label><span class="err"></span></div>
+<div class="fld"><input id="e" type="email" placeholder=" " autocomplete="email"><label for="e">Email</label><span class="err"></span></div>
+<div class="fld"><input id="w" placeholder=" " autocomplete="url"><label for="w">Website</label><span class="err"></span></div>
+<div class="fld"><select id="b"><option>Under ₹1 lakh/mo</option><option>₹1 to 3 lakh/mo</option><option>Above ₹3 lakh/mo</option></select><label for="b">Monthly budget</label></div>
+<button class="btn p" type="submit"><span class="sp"></span><span id="bt">Get my free audit</span></button>
+</form>
+<div class="ok" id="ok" role="status"><h3>Request received</h3><p>We'll prepare a personalized AI marketing growth roadmap within 24 hours.</p></div>
+</div></div></section>
+
+<section id="faq"><div class="wrap split">
+<h2 class="rv">Questions, answered</h2>
+<div class="rv">
+<details><summary>What does AI powered marketing mean?</summary><p>We use AI to research audiences, test creatives, predict results and automate reporting. Strategists review every decision.</p></details>
+<details><summary>How soon will I see results?</summary><p>Paid campaigns usually show early signals in 2 to 4 weeks. SEO builds over 3 to 6 months.</p></details>
+<details><summary>Do you work with small businesses?</summary><p>Yes. The Starter plan is built for growing businesses that want a strong foundation.</p></details>
+<details><summary>Which industries do you serve?</summary><p>Real estate, healthcare, education, hospitality, D2C, technology, startups and government.</p></details>
+<details><summary>Is there a long-term contract?</summary><p>No. Plans run month to month once the first 90-day roadmap is complete.</p></details>
+<details><summary>How do you report results?</summary><p>You get a live dashboard and a weekly summary tied to leads, sales and cost per lead.</p></details>
+</div></div></section>
+</main>
+
+<footer><div class="wrap"><div class="fg">
+<div><a class="logo" href="#top" style="padding:0">Golden Tabby Creations</a><p class="lede" style="font-size:.95rem">AI powered digital marketing agency. Where creativity meets artificial intelligence.</p></div>
+<div><h3>Explore</h3><a href="#about">Why AI</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#pricing">Pricing</a></div>
+<div><h3>Contact</h3><a href="#audit">Book a strategy call</a><a href="#audit">Free marketing audit</a><a href="#faq">FAQ</a></div>
+</div><p class="copy">&copy; 2026 Golden Tabby Creations. Privacy Policy. Terms.</p></div></footer>
+
+<a id="float" class="btn p" href="#audit">Book a Free Strategy Call</a>
+
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)};
+var S=[["SEO and AI SEO","Rank on Google and inside AI answers.","SEO · AI SEO · Content marketing · Analytics",'<path d="M11 4a7 7 0 100 14 7 7 0 000-14zM21 21l-5-5"/>'],
+["Paid advertising","Turn ad spend into qualified leads.","Google Ads · Meta Ads · Lead generation · CRO",'<path d="M3 17l6-6 4 4 8-8M15 7h6v6"/>'],
+["Social and video","Build an audience that buys.","Instagram · LinkedIn · Video marketing",'<rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/>'],
+["Email and messaging","Reach customers where they reply.","Email marketing · WhatsApp marketing",'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>'],
+["Web and brand","Sites and identities that convert.","Website development · Landing pages · Brand strategy",'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/>'],
+["AI and automation","Systems that work while you sleep.","Marketing automation · AI chatbots · Consulting",'<circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/>']];
+$("#svc").innerHTML=S.map(function(s){return '<article class="rv"><svg viewBox="0 0 24 24">'+s[3]+'</svg><h3>'+s[0]+'</h3><p>'+s[1]+'</p><small>'+s[2]+'</small></article>'}).join("");
+var W=[["Real Estate","A Delhi NCR developer","Site-visit leads up 4x in 6 months","Meta Ads, Google Ads","412%"],
+["Healthcare","A multi-city clinic group","Cost per booking cut by half","SEO, Google Ads","58% lower"],
+["Education","An online learning brand","Enrolments doubled in one quarter","AI SEO, Email","2.1x"],
+["D2C","A direct-to-consumer label","Revenue from paid social tripled","Meta Ads, WhatsApp","3.4x"]];
+var cats=["All"].concat(["Real Estate","Healthcare","Education","D2C"]);
+$("#fl").innerHTML=cats.map(function(c,i){return '<button aria-pressed="'+(i==0)+'" data-c="'+c+'">'+c+'</button>'}).join("");
+$("#wk").innerHTML=W.map(function(p){return '<article data-c="'+p[0]+'"><div><small>'+p[0]+' · '+p[1]+'</small><h3>'+p[2]+'</h3><small>'+p[3]+'</small></div><div class="r">'+p[4]+'</div></article>'}).join("");
+$("#fl").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;
+ document.querySelectorAll("#fl button").forEach(function(x){x.setAttribute("aria-pressed",x===b)});
+ document.querySelectorAll("#wk article").forEach(function(a){a.hidden=b.dataset.c!="All"&&a.dataset.c!=b.dataset.c})});
+// theme
+var r=document.documentElement;
+$("#theme").onclick=function(){r.dataset.theme=r.dataset.theme=="dark"?"light":"dark"};
+// menu
+$("#menu").onclick=function(){var o=$("#links").classList.toggle("o");this.setAttribute("aria-expanded",o)};
+$("#links").addEventListener("click",function(e){if(e.target.tagName=="A")this.classList.remove("o")});
+// scroll
+var hd=$("#hd"),pg=$("#prog"),fl=$("#float");
+function sc(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;hd.classList.toggle("s",y>40);pg.style.width=(h>0?y/h*100:0)+"%";fl.classList.toggle("v",y>innerHeight*.7)}
+addEventListener("scroll",sc,{passive:true});sc();
+// reveal + counters
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll(".rv").forEach(function(el){io.observe(el)});
+var co=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;co.unobserve(e.target);
+ var t=+e.target.dataset.n,s=e.target.dataset.s,st=performance.now();
+ (function f(n){var k=Math.min((n-st)/1600,1);e.target.textContent=Math.round(t*(1-Math.pow(1-k,3)))+s;if(k<1)requestAnimationFrame(f)})(st)})});
+document.querySelectorAll("[data-n]").forEach(function(el){co.observe(el)});
+// network canvas
+var cv=$("#net"),cx=cv.getContext("2d"),P=[],mx=-999,my=-999,dpr=Math.min(devicePixelRatio||1,2);
+function rs(){cv.width=cv.offsetWidth*dpr;cv.height=cv.offsetHeight*dpr;cx.setTransform(dpr,0,0,dpr,0,0);
+ P=[];var n=Math.round(cv.offsetWidth*cv.offsetHeight/16000);for(var i=0;i<n;i++)P.push({x:Math.random()*cv.offsetWidth,y:Math.random()*cv.offsetHeight,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3})}
+rs();addEventListener("resize",rs);
+cv.parentNode.addEventListener("pointermove",function(e){var b=cv.getBoundingClientRect();mx=e.clientX-b.left;my=e.clientY-b.top});
+var still=matchMedia("(prefers-reduced-motion:reduce)").matches;
+function dr(){cx.clearRect(0,0,cv.offsetWidth,cv.offsetHeight);
+ P.forEach(function(p,i){if(!still){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>cv.offsetWidth)p.vx*=-1;if(p.y<0||p.y>cv.offsetHeight)p.vy*=-1}
+  cx.fillStyle="rgba(212,175,55,.7)";cx.beginPath();cx.arc(p.x,p.y,1.6,0,6.3);cx.fill();
+  for(var j=i+1;j<P.length;j++){var q=P[j],d=Math.hypot(p.x-q.x,p.y-q.y);if(d<120){cx.strokeStyle="rgba(212,175,55,"+(.18*(1-d/120))+")";cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(q.x,q.y);cx.stroke()}}
+  var m=Math.hypot(p.x-mx,p.y-my);if(m<160){cx.strokeStyle="rgba(246,211,101,"+(.4*(1-m/160))+")";cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(mx,my);cx.stroke()}});
+ if(!still)requestAnimationFrame(dr)}
+dr();
+// form
+var af=$("#af");
+af.addEventListener("submit",function(e){e.preventDefault();var ok=true;
+ function chk(id,fn,msg){var i=$("#"+id),er=i.parentNode.querySelector(".err"),v=i.value.trim();er.textContent=fn(v)?"":msg;if(!fn(v))ok=false}
+ chk("n",function(v){return v.length>1},"Enter your name.");
+ chk("c",function(v){return v.length>1},"Enter your company name.");
+ chk("e",function(v){return /^\S+@\S+\.\S+$/.test(v)},"Enter a valid email address.");
+ chk("w",function(v){return /\./.test(v)},"Enter your website address.");
+ if(!ok)return;
+ var s=af.querySelector(".sp");s.style.display="inline-block";$("#bt").textContent="Sending";
+ setTimeout(function(){af.style.display="none";$("#ok").style.display="block"},1400)});
+})();
+</script>
+</body>
+</html>
